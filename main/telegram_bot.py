@@ -62,7 +62,7 @@ def modify_task(update: Update, context: CallbackContext):
 
 def main():
     # Replace with your Telegram bot token
-    bot_token = "6688574848:AAFo2r-SPB06h2L1gme1U476s9of24Qo-eo"
+    bot_token = "key"
     updater = Updater(bot_token)
 
     dp = updater.dispatcher
