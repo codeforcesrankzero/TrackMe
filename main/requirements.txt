@@ -1,0 +1,6 @@
+fastapi
+sqlalchemy
+openai
+python-telegram-bot[socks]>=13.7,<13.8
+uvicorn[standard]
+requests

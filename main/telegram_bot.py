@@ -21,6 +21,9 @@ def start(update: Update, context: CallbackContext):
         3)/get_task <task_id>\n
         4)/modify_task <task_id>/<title>/<theme>/<text>\n
         5)/delete_task <task_id>\n
+        3)/switch_status <old_task_id> <new status> from open, in progress, closed
+        7)/get_by_status <status> from open, in progress, closed
+        8)/get_better_task <text>
         """
     )
     user_id = int(update.message.from_user.id)
